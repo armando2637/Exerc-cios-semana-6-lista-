@@ -1,1 +1,20 @@
+package controle;
+
+import dominio.Estruturas;
+
+public class Principal {
+
+    public static void main(String[] args) {
+        Estruturas estruturas = new Estruturas();
+
+        System.out.println(" EXERCÍCIOS DA SEMANA 6");
+
+        estruturas.exercicioLinkedList();
+        estruturas.exercicioFila();
+        estruturas.exercicioPilha();
+        estruturas.exercicioIntegrado();
+
+        System.out.println("\n FIM");
+    }
+}
 
